@@ -1,0 +1,20 @@
+{"tag": "yolo11s_concrete_k3", "backbone": "yolo11s-cls", "selector": "concrete", "k": 3}
+{"tag": "yolo11s_led_k3", "backbone": "yolo11s-cls", "selector": "led", "k": 3}
+{"tag": "specpool_concrete_k3", "backbone": "specpool", "selector": "concrete", "k": 3, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_concrete_k5", "backbone": "yolo11s-cls", "selector": "concrete", "k": 5}
+{"tag": "yolo11s_led_k5", "backbone": "yolo11s-cls", "selector": "led", "k": 5}
+{"tag": "specpool_concrete_k5", "backbone": "specpool", "selector": "concrete", "k": 5, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_concrete_k8", "backbone": "yolo11s-cls", "selector": "concrete", "k": 8}
+{"tag": "yolo11s_led_k8", "backbone": "yolo11s-cls", "selector": "led", "k": 8}
+{"tag": "specpool_concrete_k8", "backbone": "specpool", "selector": "concrete", "k": 8, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_rgb", "backbone": "yolo11s-cls", "selector": "rgb"}
+{"tag": "yolo11s_vip5", "backbone": "yolo11s-cls", "selector": "fixed", "bands": [499, 510, 520, 659, 672]}
+{"tag": "yolo11s_all16", "backbone": "yolo11s-cls", "selector": "all", "k": 16}
+{"tag": "specpool_all16", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_concrete_k5_imgnorm", "backbone": "yolo11s-cls", "selector": "concrete", "k": 5, "pixnorm": "img"}
+{"tag": "yolo11s_concrete_k5_randinit", "backbone": "yolo11s-cls", "selector": "concrete", "k": 5, "init": "random"}
+{"tag": "yolo11n_concrete_k5", "backbone": "yolo11n-cls", "selector": "concrete", "k": 5}
+{"tag": "yolo11m_concrete_k5", "backbone": "yolo11m-cls", "selector": "concrete", "k": 5}
+{"tag": "mobilenet_v3_small_concrete_k5", "backbone": "mobilenet_v3_small", "selector": "concrete", "k": 5}
+{"tag": "efficientnet_b0_concrete_k5", "backbone": "efficientnet_b0", "selector": "concrete", "k": 5}
+{"tag": "resnet18_concrete_k5", "backbone": "resnet18", "selector": "concrete", "k": 5}

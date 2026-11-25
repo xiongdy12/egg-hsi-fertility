@@ -1,0 +1,18 @@
+{
+  "title": "egg-hsi-fertility: spatial-spectral deep learning for pre-incubation egg fertility screening",
+  "upload_type": "software",
+  "description": "Code for a leakage-controlled evaluation of spatial-spectral deep learning (YOLO11 and other backbones with matched non-spatial controls) for pre-incubation chicken egg fertility screening from transmission hyperspectral images, using the public dataset of Ahmed et al. (Illinois Data Bank, doi:10.13012/B2IDB-8141497_V1).",
+  "creators": [
+    {
+      "name": "Prasetyo, Tegar Arifin",
+      "affiliation": "Institut Teknologi Del",
+      "orcid": "0000-0001-8058-7961"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["hyperspectral imaging", "egg fertility", "deep learning", "YOLO11", "data leakage", "temporal drift"],
+  "related_identifiers": [
+    {"identifier": "10.13012/B2IDB-8141497_V1", "relation": "references", "resource_type": "dataset"},
+    {"identifier": "10.1038/s41597-026-06556-1", "relation": "references", "resource_type": "publication-article"}
+  ]
+}

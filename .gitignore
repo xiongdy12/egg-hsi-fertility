@@ -1,0 +1,14 @@
+# data and large outputs (not redistributed)
+raw/
+cubes/
+runs/
+runs_*/
+*.npy
+*.rar
+*.pt
+*.pth
+logs/
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

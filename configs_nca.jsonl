@@ -1,0 +1,22 @@
+{"tag": "resnet18_all16", "backbone": "resnet18", "selector": "all", "k": 16}
+{"tag": "mobilenet_v3_small_all16", "backbone": "mobilenet_v3_small", "selector": "all", "k": 16}
+{"tag": "efficientnet_b0_all16", "backbone": "efficientnet_b0", "selector": "all", "k": 16}
+{"tag": "yolo11n_all16", "backbone": "yolo11n-cls", "selector": "all", "k": 16}
+{"tag": "yolo11m_all16", "backbone": "yolo11m-cls", "selector": "all", "k": 16}
+{"tag": "yolo11s_all4", "backbone": "yolo11s-cls", "selector": "all", "k": 4}
+{"tag": "specpool_all4", "backbone": "specpool", "selector": "all", "k": 4, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_all8", "backbone": "yolo11s-cls", "selector": "all", "k": 8}
+{"tag": "specpool_all8", "backbone": "specpool", "selector": "all", "k": 8, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_all32", "backbone": "yolo11s-cls", "selector": "all", "k": 32}
+{"tag": "specpool_all32", "backbone": "specpool", "selector": "all", "k": 32, "epochs": 150, "lr": 0.003}
+{"tag": "yolo11s_all64", "backbone": "yolo11s-cls", "selector": "all", "k": 64}
+{"tag": "specpool_all64", "backbone": "specpool", "selector": "all", "k": 64, "epochs": 150, "lr": 0.003}
+{"tag": "hybridsn_bin75", "backbone": "hybridsn", "selector": "bin", "k": 75, "epochs": 80}
+{"tag": "pls_anchor_yolo11s_all16", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "anchor": "pls", "seed": 0}
+{"tag": "pls_anchor_yolo11s_all16_s1", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "anchor": "pls", "seed": 1}
+{"tag": "pls_anchor_yolo11s_all16_s2", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "anchor": "pls", "seed": 2}
+{"tag": "pls_anchor_yolo11s_all16_s3", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "anchor": "pls", "seed": 3}
+{"tag": "pls_anchor_yolo11s_all16_s4", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "anchor": "pls", "seed": 4}
+{"tag": "pls_anchor_specpool_all16", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "anchor": "pls", "seed": 0}
+{"tag": "pls_anchor_specpool_all16_s1", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "anchor": "pls", "seed": 1}
+{"tag": "pls_anchor_specpool_all16_s2", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "anchor": "pls", "seed": 2}

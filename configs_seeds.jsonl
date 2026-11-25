@@ -1,0 +1,8 @@
+{"tag": "yolo11s_all16_s1", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "seed": 1}
+{"tag": "yolo11s_all16_s2", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "seed": 2}
+{"tag": "yolo11s_all16_s3", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "seed": 3}
+{"tag": "yolo11s_all16_s4", "backbone": "yolo11s-cls", "selector": "all", "k": 16, "seed": 4}
+{"tag": "specpool_all16_s1", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "seed": 1}
+{"tag": "specpool_all16_s2", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "seed": 2}
+{"tag": "specpool_all16_s3", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "seed": 3}
+{"tag": "specpool_all16_s4", "backbone": "specpool", "selector": "all", "k": 16, "epochs": 150, "lr": 0.003, "seed": 4}
